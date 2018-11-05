@@ -1,0 +1,43 @@
+body{ background: linear-gradient(132deg, #8e76a7, #0d244e,midnightblue);   } 
+main {  margin-bottom: 79px;
+    margin-left: 0%; margin-right: 0%;margin-top: 0%;}
+form{     padding: 95px 400px;}
+label{ color:white;}
+.form-control{ background-color: rgb(46, 46, 54); border: 1.2px solid #0d244e}
+.buttonsForm{ display: flex; flex-direction: column; }
+.btn-primary{width:100%; margin-top:4px;background-color: rgb(74, 74, 112)!important; border-color: #203253; }
+.btn-primary:hover{ background-color: #8e76a7;  }
+.navbardetails{margin-left: 20%;display: flex;flex-direction:row;list-style-type: none;float: right;}
+.navbardetails fa {margin-top: 26px;margin-right: 20px;font-size: 23px;width: 16px; }
+ .fa-linkedin:hover, .fa-instagra:hover, .fa-slack:hover, .fa-github:hover,.fa-twitter:hover {opacity: 0.7; cursor: pointer; color:#1ebad0}
+.fa-linkedin,.fa-instagram,.fa-slack,.fa-github,.fa-twitter  {color: white;  margin-top: 26px;margin-right: 20px;font-size: 23px;width: 16px;}
+.popover-content {
+    background-color: rgb(187, 20, 20);
+    color: #0d244e;
+    padding: 2px;
+    font-size: 12px;
+}
+.popover {
+    border: 2px dotted white;
+}
+#formGroupExampleInput{ 
+
+font-family: FontAwesome, "address-book", Verdana, sans-serif;
+color: blue; 
+}
+#exampleInputPassword1{ 
+    font-family: FontAwesome, "key", Verdana, sans-serif;
+    color: blue; }
+    #exampleFormControlTextarea1{
+        font-family: FontAwesome, "comment", Verdana, sans-serif;
+        color: blue;
+    }
+    #exampleFormControlInput1{
+        font-family: FontAwesome, "envelope-square", Verdana, sans-serif;
+        color: blue;
+    }
+
+    #formGroupExampleInput2{
+        font-family: FontAwesome, "address-card", Verdana, sans-serif;
+        color: blue;
+    }

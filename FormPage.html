@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="FormPage.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script type="text/javascript" src="http://code.jquery.com/jquery-3.1.1.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+  <header>
+      <ul class="navbardetails">
+      <li>
+          <!--Twitter--><a href="https://github.com/NourLahwaya" class="tw-ic mr-3"><i class="fa fa-lg fa-twitter">
+                  </i></a></li>
+  <li>
+          <!--Linkedin--><a href="  https://www.linkedin.com/in/nour-lahwaya-541b68164/" class="li-ic mr-3"><i
+                          class="fa fa-lg fa-linkedin"> </i></a></li>
+  <li>
+          <!--slack--><a class="slack-ic mr-3"><i class="fa fa-lg fa-slack"> </i></a></li>
+  <li>
+          <!--Github--><a href="https://github.com/NourLahwaya" class="git-ic mr-3"><i class="fa fa-lg fa-github">
+                  </i></a></li>
+</ul>
+
+  </header>
+  <main>
+    <form method="post" name="Form" onsubmit="return validateForm()" required>
+      <div class="form-group">
+        <label for="formGroupExampleInput">Name :</label>
+       <input type="text" class="form-control" id="formGroupExampleInput" placeholder='&#xf2b9   Name'> 
+      </div>
+      <div class="form-group">
+        <label for="formGroupExampleInput2">Adress :</label>
+        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="&#xf2bb   Adress">
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlInput1">Email address :</label>
+        <input type="emailtext" class="form-control" id="exampleFormControlInput1" onblur="verifMail(this)" placeholder="&#xf199   name@example.com"
+          >
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Password :</label>
+    <input type="password" class="form-control" id="exampleInputPassword1"  onblur="verifPassword(this)" placeholder="&#xf084   Password"
+          >
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlTextarea1">Comments :</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder='&#xf075   Comment' ></textarea>
+      </div>
+      <div class name="buttonsForm">
+        <button id="subButton" type="submit" class="btn btn-primary">Send</button>
+
+
+        <button type="button" id="reset" class="btn btn-primary" onchange="resetcontent()">Reset</button>
+      </div>
+    </form>
+
+
+
+
+  </main>
+  <footer></footer>
+  <script src="FormePage.js"></script>
+</body>
+
+</html>
